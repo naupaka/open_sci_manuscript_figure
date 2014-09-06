@@ -1,3 +1,951 @@
-<?xml version="1.0"?>
-<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xl="http://www.w3.org/1999/xlink" version="1.1" viewBox="-5 -4 763 544" width="763pt" height="544pt"><metadata xmlns:dc="http://purl.org/dc/elements/1.1/"><dc:date>2014-09-04 23:39Z</dc:date><!-- Produced by OmniGraffle Professional 5.4.4 --></metadata><defs><linearGradient x1="0" x2="1" id="Gradient" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="white"/><stop offset="1" stop-color="#aaa"/></linearGradient><linearGradient id="Obj_Gradient" xl:href="#Gradient" gradientTransform="translate(376.5 182.5) rotate(90) scale(171)"/><linearGradient id="Obj_Gradient_2" xl:href="#Gradient" gradientTransform="translate(376.5 360) rotate(90) scale(171)"/><linearGradient id="Obj_Gradient_3" xl:href="#Gradient" gradientTransform="translate(376.5 5) rotate(90) scale(171)"/><font-face font-family="Helvetica" font-size="12" units-per-em="1000" underline-position="-75.683594" underline-thickness="49.316406" slope="0" x-height="522.94922" cap-height="717.28516" ascent="770.01953" descent="-229.98047" font-weight="500"><font-face-src><font-face-name name="Helvetica"/></font-face-src></font-face><marker orient="auto" overflow="visible" markerUnits="strokeWidth" id="FilledArrow_Marker" viewBox="-1 -4 10 8" markerWidth="10" markerHeight="8" color="black"><g><path d="M 8 0 L 0 -3 L 0 3 Z" fill="currentColor" stroke="currentColor" stroke-width="1"/></g></marker><marker orient="auto" overflow="visible" markerUnits="strokeWidth" id="FilledArrow_Marker_2" viewBox="-9 -4 10 8" markerWidth="10" markerHeight="8" color="black"><g><path d="M -8 0 L 0 3 L 0 -3 Z" fill="currentColor" stroke="currentColor" stroke-width="1"/></g></marker></defs><g stroke="none" stroke-opacity="1" stroke-dasharray="none" fill="none" fill-opacity="1"><title>Canvas 1</title><g><title>Layer 1</title><rect x="4" y="182.5" width="745" height="171" fill="url(#Obj_Gradient)"/><rect x="4" y="360" width="745" height="171" fill="url(#Obj_Gradient_2)"/><rect x="4" y="5" width="745" height="171" fill="url(#Obj_Gradient_3)"/><text transform="translate(10 43)" fill="black"><tspan font-family="Helvetica" font-size="12" font-weight="500" x="7.15625" y="11" textLength="34.6875">Reads</tspan><tspan font-family="Helvetica" font-size="12" font-weight="500" x=".1484375" y="25" textLength="48.703125">blog post</tspan></text><text transform="translate(70 43)" fill="black"><tspan font-family="Helvetica" font-size="12" font-weight="500" x="2.1464844" y="11" textLength="84.041016">Asks questions </tspan><tspan font-family="Helvetica" font-size="12" font-weight="500" x="18.157227" y="25" textLength="48.685547">on twitter</tspan></text><text transform="translate(82.5 124)" fill="black"><tspan font-family="Helvetica" font-size="12" font-weight="500" x="8.323242" y="11" textLength="46.6875">Designs </tspan><tspan font-family="Helvetica" font-size="12" font-weight="500" x=".31933594" y="25" textLength="59.361328">experiment</tspan></text><text transform="translate(154.75005 131)" fill="black"><tspan font-family="Helvetica" font-size="12" font-weight="500" x=".32714844" y="11" textLength="51.345703">Fieldwork</tspan></text><text transform="translate(219.00009 117)" fill="black"><tspan font-family="Helvetica" font-size="12" font-weight="500" x="6.8203125" y="11" textLength="58.69336">Data entry </tspan><tspan font-family="Helvetica" font-size="12" font-weight="500" x="5.8242188" y="25" textLength="60.685547">with Excel, </tspan><tspan font-family="Helvetica" font-size="12" font-weight="500" x=".48632812" y="39" textLength="68.027344">export to csv</tspan></text><text transform="translate(325.50001 124)" fill="black"><tspan font-family="Helvetica" font-size="12" font-weight="500" x="1.9892578" y="11" textLength="101.35547">Analysis (statistics </tspan><tspan font-family="Helvetica" font-size="12" font-weight="500" x=".9785156" y="25" textLength="29.355469">and fi</tspan><tspan font-family="Helvetica" font-size="12" font-weight="500" x="30.333984" y="25" textLength="70.6875">gures) with R</tspan></text><text transform="translate(473.5 124)" fill="black"><tspan font-family="Helvetica" font-size="12" font-weight="500" x=".09472656" y="11" textLength="11.326172">W</tspan><tspan font-family="Helvetica" font-size="12" font-weight="500" x="11.209961" y="11" textLength="56.695312">rites paper</tspan><tspan font-family="Helvetica" font-size="12" font-weight="500" x="13.433594" y="25" textLength="24">in W</tspan><tspan font-family="Helvetica" font-size="12" font-weight="500" x="37.222656" y="25" textLength="17.34375">ord</tspan></text><text transform="translate(354 43)" fill="black"><tspan font-family="Helvetica" font-size="12" font-weight="500" x="2.1591797" y="11" textLength="44.015625">Gives a </tspan><tspan font-family="Helvetica" font-size="12" font-weight="500" x="5.8242188" y="25" textLength="33.351562">poster</tspan></text><text transform="translate(411.00018 12)" fill="black"><tspan font-family="Helvetica" font-size="12" font-weight="500" x="1.9882812" y="11" textLength="51.357422">Poster to </tspan><tspan font-family="Helvetica" font-size="12" font-weight="500" x="4.654297" y="25" textLength="6">fi</tspan><tspan font-family="Helvetica" font-size="12" font-weight="500" x="10.654297" y="25" textLength="36.691406">gshare</tspan></text><text transform="translate(478 5)" fill="black"><tspan font-family="Helvetica" font-size="12" font-weight="500" x="10.1552734" y="11" textLength="42.023438">Data to </tspan><tspan font-family="Helvetica" font-size="12" font-weight="500" x="2.1513672" y="25" textLength="58.03125">Ecological </tspan><tspan font-family="Helvetica" font-size="12" font-weight="500" x="6.493164" y="39" textLength="46.013672">Archives</tspan></text><text transform="translate(477 71.5)" fill="black"><tspan font-family="Helvetica" font-size="12" font-weight="500" x="2.1552734" y="11" textLength="60.023438">Submits to </tspan><tspan font-family="Helvetica" font-size="12" font-weight="500" x="1.8154297" y="25" textLength="57.36914">Ecosphere</tspan></text><text transform="translate(624 19)" fill="black"><tspan font-family="Helvetica" font-size="12" font-weight="500" x=".14746094" y="11" textLength="58.705078">Publication</tspan></text><text transform="translate(664 43)" fill="black"><tspan font-family="Helvetica" font-size="12" font-weight="500" x="16.322266" y="11" textLength="44.689453">Links to </tspan><tspan font-family="Helvetica" font-size="12" font-weight="500" x=".30273438" y="25" textLength="73.39453">paper on blog</tspan></text><text transform="translate(543.625 12)" fill="black"><tspan font-family="Helvetica" font-size="12" font-weight="500" x="9.152344" y="11" textLength="48.029297">Code as </tspan><tspan font-family="Helvetica" font-size="12" font-weight="500" x=".48046875" y="25" textLength="62.039062">supplement</tspan></text><text transform="translate(16 218)" fill="black"><tspan font-family="Helvetica" font-size="12" font-weight="500" x="1.15625" y="11" textLength="34.6875">Reads</tspan><tspan font-family="Helvetica" font-size="12" font-weight="500" x=".154296875" y="25" textLength="36.691406">papers</tspan></text><text transform="translate(43 298)" fill="black"><tspan font-family="Helvetica" font-size="12" font-weight="500" x="8.323242" y="11" textLength="46.6875">Designs </tspan><tspan font-family="Helvetica" font-size="12" font-weight="500" x=".31933594" y="25" textLength="59.361328">experiment</tspan></text><text transform="translate(130.12536 298)" fill="black"><tspan font-family="Helvetica" font-size="12" font-weight="500" x="2.1074219" y="11" textLength="11.326172">W</tspan><tspan font-family="Helvetica" font-size="12" font-weight="500" x="13.222656" y="11" textLength="26.003906">rites </tspan><tspan font-family="Helvetica" font-size="12" font-weight="500" x="5.3242188" y="25" textLength="27.351562">grant</tspan></text><text transform="translate(195.25072 298)" fill="black"><tspan font-family="Helvetica" font-size="12" font-weight="500" x="2.9892578" y="11" textLength="20.021484">Lab</tspan><tspan font-family="Helvetica" font-size="12" font-weight="500" x=".33203125" y="25" textLength="25.335938">work</tspan></text><text transform="translate(337.50018 292)" fill="black"><tspan font-family="Helvetica" font-size="12" font-weight="500" x="18.475586" y="11" textLength="109.38281">Analysis and writing </tspan><tspan font-family="Helvetica" font-size="12" font-weight="500" x="1.8056641" y="25" textLength="142.72266">with Rmarkdown, in public </tspan><tspan font-family="Helvetica" font-size="12" font-weight="500" x="16.474609" y="39" textLength="110.05078">repository on GitHub</tspan></text><text transform="translate(490 241)" fill="black"><tspan font-family="Helvetica" font-size="12" font-weight="500" x="1.8203125" y="11" textLength="58.69336">Preprint to </tspan><tspan font-family="Helvetica" font-size="12" font-weight="500" x="8.8251953" y="25" textLength="41.34961">bioRXiv</tspan></text><text transform="translate(382.50018 239)" fill="black"><tspan font-family="Helvetica" font-size="12" font-weight="500" x=".15917969" y="11" textLength="52.68164">Gives talk</tspan></text><text transform="translate(449 201)" fill="black"><tspan font-family="Helvetica" font-size="12" font-weight="500" x="4.4873047" y="11" textLength="49.359375">Slides to </tspan><tspan font-family="Helvetica" font-size="12" font-weight="500" x=".15136719" y="25" textLength="54.697266">slideshare</tspan></text><text transform="translate(524 292)" fill="black"><tspan font-family="Helvetica" font-size="12" font-weight="500" x="2.1425781" y="11" textLength="94.04883">Submits paper to </tspan><tspan font-family="Helvetica" font-size="12" font-weight="500" x="10.251953" y="25" textLength="72.046875">PLoS Biology</tspan><tspan font-family="Helvetica" font-size="12" font-weight="500" x="81.414062" y="25" textLength="6.6679688">, </tspan><tspan font-family="Helvetica" font-size="12" font-weight="500" x="5.4736328" y="39" textLength="84.052734">cites data, code</tspan></text><text transform="translate(263.25012 232)" fill="black"><tspan font-family="Helvetica" font-size="12" font-weight="500" x="7.4765625" y="11" textLength="57.38086">Sequence </tspan><tspan font-family="Helvetica" font-size="12" font-weight="500" x=".14941406" y="25" textLength="68.70117">data to NCBI</tspan></text><text transform="translate(167.75072 232)" fill="black"><tspan font-family="Helvetica" font-size="12" font-weight="500" x="2.147461" y="11" textLength="80.039062">Environmental </tspan><tspan font-family="Helvetica" font-size="12" font-weight="500" x="4.4794922" y="25" textLength="72.041016">data to Dryad</tspan></text><text transform="translate(49.625 484)" fill="black"><tspan font-family="Helvetica" font-size="12" font-weight="500" x=".32226562" y="11" textLength="23.355469">Idea</tspan></text><text transform="translate(195.25072 484)" fill="black"><tspan font-family="Helvetica" font-size="12" font-weight="500" x=".154296875" y="11" textLength="60.691406">Experiment</tspan></text><text transform="translate(358 484)" fill="black"><tspan font-family="Helvetica" font-size="12" font-weight="500" x=".158203125" y="11" textLength="44.683594">Analysis</tspan></text><text transform="translate(494.5 484)" fill="black"><tspan font-family="Helvetica" font-size="12" font-weight="500" x=".4375" y="11" textLength="11.326172">W</tspan><tspan font-family="Helvetica" font-size="12" font-weight="500" x="11.5527344" y="11" textLength="26.009766">riting</tspan></text><text transform="translate(486.5 421)" fill="black"><tspan font-family="Helvetica" font-size="12" font-weight="500" x="1.9912109" y="11" textLength="45.351562">Preprint </tspan></text><text transform="translate(370.375 407)" fill="black"><tspan font-family="Helvetica" font-size="12" font-weight="500" x="16.821289" y="11" textLength="7.330078">T</tspan><tspan font-family="Helvetica" font-size="12" font-weight="500" x="22.821289" y="11" textLength="66.691406">alk slides or </tspan><tspan font-family="Helvetica" font-size="12" font-weight="500" x=".142578125" y="25" textLength="102.714844">poster to repository</tspan></text><text transform="translate(199.25072 407)" fill="black"><tspan font-family="Helvetica" font-size="12" font-weight="500" x="7.1552734" y="11" textLength="42.023438">Data to </tspan><tspan font-family="Helvetica" font-size="12" font-weight="500" x=".15625" y="25" textLength="52.6875">repository</tspan></text><line x1="142.5" y1="137.9995" x2="144.85005" y2="137.99946" marker-end="url(#FilledArrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/><line x1="206.75005" y1="138" x2="209.10009" y2="138" marker-end="url(#FilledArrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/><line x1="288.00009" y1="137.99999" x2="315.60001" y2="137.99999" marker-end="url(#FilledArrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/><line x1="427.5" y1="137.99999" x2="463.6" y2="137.99999" marker-end="url(#FilledArrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/><line x1="103" y1="312.11227" x2="120.22543" y2="312.17673" marker-end="url(#FilledArrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/><line x1="168.12536" y1="312.00001" x2="185.35072" y2="312.00001" marker-end="url(#FilledArrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/><line x1="221.25072" y1="312.06472" x2="327.6003" y2="312.5942" marker-end="url(#FilledArrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/><line x1="480.50018" y1="312.99998" x2="514.1" y2="312.99998" marker-end="url(#FilledArrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/><line x1="73.625" y1="491" x2="185.35072" y2="491" marker-end="url(#FilledArrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/><line x1="256.25072" y1="491" x2="348.1" y2="491" marker-end="url(#FilledArrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/><line x1="403" y1="491" x2="484.6" y2="491" marker-end="url(#FilledArrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/><line x1="112.499995" y1="114.1" x2="112.499995" y2="80.9" marker-end="url(#FilledArrow_Marker)" marker-start="url(#FilledArrow_Marker_2)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/><line x1="409.00018" y1="282.1" x2="409.00018" y2="262.9" marker-end="url(#FilledArrow_Marker)" marker-start="url(#FilledArrow_Marker_2)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/><line x1="457.41564" y1="287.36785" x2="483.3604" y2="273.63215" marker-end="url(#FilledArrow_Marker)" marker-start="url(#FilledArrow_Marker_2)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/><line x1="221.25072" y1="302.43323" x2="270.93837" y2="265.86783" marker-end="url(#FilledArrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/><line x1="208.31162" y1="298" x2="208.43386" y2="269.8999" marker-end="url(#FilledArrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/><line x1="47.981481" y1="71" x2="92.151465" y2="116.86883" marker-end="url(#FilledArrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/><line x1="399" y1="45.422527" x2="402.1972" y2="43.777393" marker-end="url(#FilledArrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/><line x1="507.5" y1="124" x2="507.5" y2="109.4" marker-end="url(#FilledArrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/><line x1="507.42475" y1="71.5" x2="507.34628" y2="56.899856" marker-end="url(#FilledArrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/><line x1="538" y1="73.044024" x2="626.8876" y2="36.742983" marker-end="url(#FilledArrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/><line x1="523.5446" y1="71.5" x2="552.18548" y2="46.508912" marker-end="url(#FilledArrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/><line x1="376.51074" y1="124" x2="376.54377" y2="80.899996" marker-end="url(#FilledArrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/><line x1="664.1602" y1="33" x2="671.11368" y2="37.565996" marker-end="url(#FilledArrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/><line x1="41.254974" y1="246" x2="62.042746" y2="289.08363" marker-end="url(#FilledArrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/><line x1="424.00954" y1="239" x2="440.0278" y2="231.52948" marker-end="url(#FilledArrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/><text transform="translate(624 484)" fill="black"><tspan font-family="Helvetica" font-size="12" font-weight="500" x=".14746094" y="11" textLength="58.705078">Publication</tspan></text><line x1="532.5" y1="491" x2="614.1" y2="491" marker-end="url(#FilledArrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/><text transform="translate(284.81284 407)" fill="black"><tspan font-family="Helvetica" font-size="12" font-weight="500" x="5.4853516" y="11" textLength="45.36328">Code to </tspan><tspan font-family="Helvetica" font-size="12" font-weight="500" x=".15625" y="25" textLength="52.6875">repository</tspan></text></g></g></svg>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   version="1.1"
+   viewBox="-5 -4 763 544"
+   width="763pt"
+   height="544pt"
+   id="svg2"
+   inkscape:version="0.48.3.1 r9886"
+   sodipodi:docname="Figure 1.svg">
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1366"
+     inkscape:window-height="709"
+     id="namedview310"
+     showgrid="false"
+     inkscape:zoom="0.59973788"
+     inkscape:cx="615.12889"
+     inkscape:cy="424.47562"
+     inkscape:window-x="0"
+     inkscape:window-y="27"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg2"
+     showguides="true"
+     inkscape:guide-bbox="true" />
+  <metadata
+     id="metadata4">
+    <dc:date>2014-09-04 23:39Z</dc:date>
+    <!-- Produced by OmniGraffle Professional 5.4.4 -->
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs6">
+    <linearGradient
+       x1="0"
+       x2="1"
+       id="Gradient"
+       gradientUnits="userSpaceOnUse">
+      <stop
+         offset="0"
+         stop-color="white"
+         id="stop9" />
+      <stop
+         offset="1"
+         stop-color="#aaa"
+         id="stop11" />
+    </linearGradient>
+    <linearGradient
+       id="Obj_Gradient"
+       xlink:href="#Gradient"
+       gradientTransform="matrix(0,171,-171,0,376.5,182.5)" />
+    <linearGradient
+       id="Obj_Gradient_2"
+       xlink:href="#Gradient"
+       gradientTransform="matrix(0,171,-171,0,376.5,360)" />
+    <linearGradient
+       id="Obj_Gradient_3"
+       xlink:href="#Gradient"
+       gradientTransform="matrix(0,171,-171,0,376.5,5)" />
+    <font-face
+       font-family="Helvetica"
+       font-size="12"
+       units-per-em="1000"
+       underline-position="-75.683594"
+       underline-thickness="49.316406"
+       slope="0"
+       x-height="522.94922"
+       cap-height="717.28516"
+       ascent="770.01953"
+       descent="-229.98047"
+       font-weight="500"
+       id="font-face16">
+      <font-face-src
+         id="font-face-src18">
+        <font-face-name
+           name="Helvetica"
+           id="font-face-name20" />
+      </font-face-src>
+    </font-face>
+    <marker
+       orient="auto"
+       overflow="visible"
+       markerUnits="strokeWidth"
+       id="FilledArrow_Marker"
+       viewBox="-1 -4 10 8"
+       markerWidth="10"
+       markerHeight="8"
+       color="black">
+      <g
+         id="g23">
+        <path
+           d="M 8 0 L 0 -3 L 0 3 Z"
+           fill="currentColor"
+           stroke="currentColor"
+           stroke-width="1"
+           id="path25" />
+      </g>
+    </marker>
+    <marker
+       orient="auto"
+       overflow="visible"
+       markerUnits="strokeWidth"
+       id="FilledArrow_Marker_2"
+       viewBox="-9 -4 10 8"
+       markerWidth="10"
+       markerHeight="8"
+       color="black">
+      <g
+         id="g28">
+        <path
+           d="M -8 0 L 0 3 L 0 -3 Z"
+           fill="currentColor"
+           stroke="currentColor"
+           stroke-width="1"
+           id="path30" />
+      </g>
+    </marker>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#Gradient"
+       id="linearGradient3891"
+       gradientTransform="matrix(0,171,-171,0,376.5,182.5)" />
+  </defs>
+  <rect
+     rx="10.004371"
+     x="31.255766"
+     y="288.427"
+     width="212.71956"
+     height="48.303204"
+     id="rect44-9"
+     style="fill:#eaeaea;fill-opacity:1;stroke:#000000;stroke-width:1.01880872;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+     ry="10.004371" />
+  <rect
+     x="61.358387"
+     y="108.37849"
+     width="511.56464"
+     height="60.951923"
+     id="rect44"
+     style="fill:#eaeaea;fill-opacity:1;stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+     ry="10.004371" />
+  <text
+     id="text210"
+     style="fill:#000000;stroke:none;font-size:12.12px"
+     x="49.625"
+     y="484">
+    <tspan
+       font-size="12"
+       font-weight="500"
+       x="49.947266"
+       y="495"
+       textLength="23.355469"
+       id="tspan212"
+       style="font-size:12.12px;font-weight:500;font-family:Helvetica">Idea</tspan>
+  </text>
+  <text
+     id="text214"
+     style="fill:#000000;stroke:none;font-size:12.12px"
+     x="195.25072"
+     y="484">
+    <tspan
+       font-size="12"
+       font-weight="500"
+       x="195.40501"
+       y="495"
+       textLength="60.691406"
+       id="tspan216"
+       style="font-size:12.12px;font-weight:500;font-family:Helvetica">Experiment</tspan>
+  </text>
+  <text
+     id="text218"
+     style="fill:#000000;stroke:none;font-size:12.12px"
+     x="358"
+     y="484">
+    <tspan
+       font-size="12"
+       font-weight="500"
+       x="358.1582"
+       y="495"
+       textLength="44.683594"
+       id="tspan220"
+       style="font-size:12.12px;font-weight:500;font-family:Helvetica">Analysis</tspan>
+  </text>
+  <text
+     id="text222"
+     style="fill:#000000;stroke:none;font-size:12.12px"
+     x="494.5"
+     y="484">
+    <tspan
+       font-size="12"
+       font-weight="500"
+       x="494.9375"
+       y="495"
+       textLength="11.326172"
+       id="tspan224"
+       style="font-size:12.12px;font-weight:500;font-family:Helvetica">W</tspan>
+    <tspan
+       font-size="12"
+       font-weight="500"
+       x="506.05273"
+       y="495"
+       textLength="26.009766"
+       id="tspan226"
+       style="font-size:12.12px;font-weight:500;font-family:Helvetica">riting</tspan>
+  </text>
+  <text
+     id="text228"
+     style="fill:#000000;stroke:none;font-size:12.12px"
+     x="486.5"
+     y="421">
+    <tspan
+       font-size="12"
+       font-weight="500"
+       x="488.49121"
+       y="432"
+       textLength="45.351562"
+       id="tspan230"
+       style="font-size:12.12px;font-weight:500;font-family:Helvetica">Preprint</tspan>
+  </text>
+  <text
+     id="text232"
+     style="fill:#000000;stroke:none;font-size:12.12px"
+     x="370.375"
+     y="407">
+    <tspan
+       font-size="12"
+       font-weight="500"
+       x="387.19629"
+       y="418"
+       textLength="7.330078"
+       id="tspan234"
+       style="font-size:12.12px;font-weight:500;font-family:Helvetica">T</tspan>
+    <tspan
+       font-size="12"
+       font-weight="500"
+       x="393.19629"
+       y="418"
+       textLength="66.691406"
+       id="tspan236"
+       style="font-size:12.12px;font-weight:500;font-family:Helvetica">alk slides or</tspan>
+    <tspan
+       font-size="12"
+       font-weight="500"
+       x="370.51758"
+       y="432"
+       textLength="102.714844"
+       id="tspan238"
+       style="font-size:12.12px;font-weight:500;font-family:Helvetica">poster to repository</tspan>
+  </text>
+  <text
+     id="text240"
+     style="fill:#000000;stroke:none;font-size:12.12px"
+     x="199.25072"
+     y="407">
+    <tspan
+       font-size="12"
+       font-weight="500"
+       x="206.40599"
+       y="418"
+       textLength="42.023438"
+       id="tspan242"
+       style="font-size:12.12px;font-weight:500;font-family:Helvetica">Data to</tspan>
+    <tspan
+       font-size="12"
+       font-weight="500"
+       x="199.40697"
+       y="432"
+       textLength="52.6875"
+       id="tspan244"
+       style="font-size:12.12px;font-weight:500;font-family:Helvetica">repository</tspan>
+  </text>
+  <line
+     x1="142.5"
+     y1="137.9995"
+     x2="144.85005"
+     y2="137.99947"
+     id="line246"
+     style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;marker-end:url(#FilledArrow_Marker)" />
+  <line
+     x1="206.75005"
+     y1="138"
+     x2="209.10008"
+     y2="138"
+     id="line248"
+     style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;marker-end:url(#FilledArrow_Marker)" />
+  <line
+     x1="288.00009"
+     y1="137.99998"
+     x2="315.60001"
+     y2="137.99998"
+     id="line250"
+     style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;marker-end:url(#FilledArrow_Marker)" />
+  <line
+     x1="427.5"
+     y1="137.99998"
+     x2="463.60001"
+     y2="137.99998"
+     id="line252"
+     style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;marker-end:url(#FilledArrow_Marker)" />
+  <line
+     x1="103"
+     y1="312.11227"
+     x2="120.22543"
+     y2="312.17673"
+     id="line254"
+     style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;marker-end:url(#FilledArrow_Marker)" />
+  <line
+     x1="168.12537"
+     y1="312"
+     x2="185.35072"
+     y2="312"
+     id="line256"
+     style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;marker-end:url(#FilledArrow_Marker)" />
+  <line
+     x1="221.25072"
+     y1="312.06473"
+     x2="327.60031"
+     y2="312.59421"
+     id="line258"
+     style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;marker-end:url(#FilledArrow_Marker)" />
+  <line
+     x1="487.83673"
+     y1="312.59421"
+     x2="521.43652"
+     y2="312.59421"
+     id="line260"
+     style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;marker-end:url(#FilledArrow_Marker)" />
+  <line
+     x1="73.625"
+     y1="491"
+     x2="185.35072"
+     y2="491"
+     id="line262"
+     style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;marker-end:url(#FilledArrow_Marker)" />
+  <line
+     x1="256.25073"
+     y1="491"
+     x2="348.10001"
+     y2="491"
+     id="line264"
+     style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;marker-end:url(#FilledArrow_Marker)" />
+  <line
+     x1="403"
+     y1="491"
+     x2="484.60001"
+     y2="491"
+     id="line266"
+     style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;marker-end:url(#FilledArrow_Marker)" />
+  <line
+     x1="112.49999"
+     y1="114.1"
+     x2="112.49999"
+     y2="80.900002"
+     id="line268"
+     style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;marker-start:url(#FilledArrow_Marker_2);marker-end:url(#FilledArrow_Marker)" />
+  <line
+     x1="409.00018"
+     y1="282.10001"
+     x2="409.00018"
+     y2="262.89999"
+     id="line270"
+     style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;marker-start:url(#FilledArrow_Marker_2);marker-end:url(#FilledArrow_Marker)" />
+  <line
+     x1="457.41565"
+     y1="287.36786"
+     x2="483.36041"
+     y2="273.63214"
+     id="line272"
+     style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;marker-start:url(#FilledArrow_Marker_2);marker-end:url(#FilledArrow_Marker)" />
+  <line
+     x1="221.25072"
+     y1="302.43323"
+     x2="270.93839"
+     y2="265.86783"
+     id="line274"
+     style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;marker-end:url(#FilledArrow_Marker)" />
+  <line
+     x1="208.31161"
+     y1="298"
+     x2="208.43385"
+     y2="269.8999"
+     id="line276"
+     style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;marker-end:url(#FilledArrow_Marker)" />
+  <line
+     x1="47.98148"
+     y1="71"
+     x2="92.151466"
+     y2="116.86883"
+     id="line278"
+     style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;marker-end:url(#FilledArrow_Marker)" />
+  <line
+     x1="377.2001"
+     y1="51.524445"
+     x2="377.08548"
+     y2="47.930637"
+     id="line280"
+     style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;marker-end:url(#FilledArrow_Marker)" />
+  <line
+     x1="507.5"
+     y1="124"
+     x2="507.5"
+     y2="109.4"
+     id="line282"
+     style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;marker-end:url(#FilledArrow_Marker)" />
+  <line
+     x1="507.42474"
+     y1="71.5"
+     x2="507.34628"
+     y2="56.899857"
+     id="line284"
+     style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;marker-end:url(#FilledArrow_Marker)" />
+  <line
+     x1="545.33655"
+     y1="85.049263"
+     x2="634.22412"
+     y2="48.74823"
+     id="line286"
+     style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;marker-end:url(#FilledArrow_Marker)" />
+  <line
+     x1="523.54462"
+     y1="71.5"
+     x2="552.18549"
+     y2="46.508911"
+     id="line288"
+     style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;marker-end:url(#FilledArrow_Marker)" />
+  <line
+     x1="376.51074"
+     y1="124"
+     x2="376.54376"
+     y2="90.804573"
+     id="line290"
+     style="fill:none;stroke:#000000;stroke-width:0.87760776;stroke-linecap:round;stroke-linejoin:round;marker-end:url(#FilledArrow_Marker)" />
+  <line
+     x1="41.254974"
+     y1="246"
+     x2="62.042747"
+     y2="289.08362"
+     id="line294"
+     style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;marker-end:url(#FilledArrow_Marker)" />
+  <line
+     x1="424.00955"
+     y1="239"
+     x2="440.0278"
+     y2="231.52948"
+     id="line296"
+     style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;marker-end:url(#FilledArrow_Marker)" />
+  <text
+     id="text298"
+     style="fill:#000000;stroke:none;font-size:12.12px"
+     x="624"
+     y="484">
+    <tspan
+       font-size="12"
+       font-weight="500"
+       x="624.14746"
+       y="495"
+       textLength="58.705078"
+       id="tspan300"
+       style="font-size:12.12px;font-weight:500;font-family:Helvetica">Publication</tspan>
+  </text>
+  <line
+     x1="532.5"
+     y1="491"
+     x2="614.09998"
+     y2="491"
+     id="line302"
+     style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;marker-end:url(#FilledArrow_Marker)" />
+  <text
+     id="text304"
+     style="fill:#000000;stroke:none;font-size:12.12px"
+     x="284.81284"
+     y="407">
+    <tspan
+       font-size="12"
+       font-weight="500"
+       x="290.29819"
+       y="418"
+       textLength="45.36328"
+       id="tspan306"
+       style="font-size:12.12px;font-weight:500;font-family:Helvetica">Code to</tspan>
+    <tspan
+       font-size="12"
+       font-weight="500"
+       x="284.96909"
+       y="432"
+       textLength="52.6875"
+       id="tspan308"
+       style="font-size:12.12px;font-weight:500;font-family:Helvetica">repository</tspan>
+  </text>
+  <flowRoot
+     xml:space="preserve"
+     id="flowRoot4718"
+     style="fill:black;stroke:none;stroke-opacity:1;stroke-width:1px;stroke-linejoin:miter;stroke-linecap:butt;fill-opacity:1;font-family:Garuda;font-style:oblique;font-weight:normal;font-size:12.12px;line-height:125%;letter-spacing:0px;word-spacing:0px;-inkscape-font-specification:Garuda Oblique;font-stretch:normal;font-variant:normal"><flowRegion
+       id="flowRegion4720"><rect
+         id="rect4722"
+         width="96.708916"
+         height="37.099541"
+         x="38.766937"
+         y="93.493774"
+         style="-inkscape-font-specification:Garuda Oblique;font-family:Garuda;font-weight:normal;font-style:oblique;font-stretch:normal;font-variant:normal;font-size:12.12px" /></flowRegion><flowPara
+       id="flowPara4724" /></flowRoot>  <text
+     xml:space="preserve"
+     style="font-size:15.15px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:FreeSerif;-inkscape-font-specification:FreeSerif"
+     x="446.0282"
+     y="3.0375867"
+     id="text4726"
+     sodipodi:linespacing="125%"
+     transform="matrix(0.8,0,0,0.8,-5,-4)"><tspan
+       sodipodi:role="line"
+       id="tspan4728"
+       x="446.0282"
+       y="3.0375867" /></text>
+  <text
+     xml:space="preserve"
+     style="font-size:12.11999989px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Source Sans Pro;-inkscape-font-specification:Source Sans Pro"
+     x="112.48181"
+     y="48.118446"
+     id="text3474"
+     sodipodi:linespacing="125%"><tspan
+       sodipodi:role="line"
+       id="tspan3476"
+       x="113.70091"
+       y="48.118446"
+       style="font-size:12.11999989px;font-weight:normal;text-align:center;text-anchor:middle;-inkscape-font-specification:Source Sans Pro">Asks questions </tspan><tspan
+       sodipodi:role="line"
+       x="112.48181"
+       y="63.268448"
+       id="tspan3478"
+       style="font-size:12.11999989px;font-weight:normal;text-align:center;text-anchor:middle;-inkscape-font-specification:Source Sans Pro">on twitter</tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-size:12.11999989px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Source Sans Pro;-inkscape-font-specification:Source Sans Pro"
+     x="110.70929"
+     y="133.37621"
+     id="text3480"
+     sodipodi:linespacing="125%"><tspan
+       sodipodi:role="line"
+       id="tspan3482"
+       x="110.70929"
+       y="133.37621"
+       style="font-size:12.11999989px">Designs</tspan><tspan
+       sodipodi:role="line"
+       x="110.70929"
+       y="148.5262"
+       id="tspan3484"
+       style="font-size:12.11999989px">experiment</tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-size:12.11999989px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Source Sans Pro;-inkscape-font-specification:Source Sans Pro"
+     x="179.86894"
+     y="142.24199"
+     id="text3480-7"
+     sodipodi:linespacing="125%"><tspan
+       sodipodi:role="line"
+       x="179.86894"
+       y="142.24199"
+       id="tspan3484-1"
+       style="font-size:12.11999989px">Fieldwork</tspan><tspan
+       sodipodi:role="line"
+       x="179.86894"
+       y="157.39198"
+       id="tspan3545" /></text>
+  <text
+     xml:space="preserve"
+     style="font-size:12.11999989px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Source Sans Pro;-inkscape-font-specification:Source Sans Pro"
+     x="34.805588"
+     y="51.905701"
+     id="text3480-5"
+     sodipodi:linespacing="125%"><tspan
+       sodipodi:role="line"
+       x="34.805588"
+       y="51.905701"
+       id="tspan3484-7"
+       style="font-size:12.11999989px">Gets ideas</tspan><tspan
+       sodipodi:role="line"
+       x="34.805588"
+       y="67.055702"
+       id="tspan3559"
+       style="font-size:12.11999989px">from blog post</tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-size:12.11999989px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Source Sans Pro;-inkscape-font-specification:Source Sans Pro"
+     x="373.2868"
+     y="133.54199"
+     id="text3480-1"
+     sodipodi:linespacing="125%"><tspan
+       sodipodi:role="line"
+       x="374.49384"
+       y="133.54199"
+       id="tspan3484-2"
+       style="font-size:12px">Analyzes and </tspan><tspan
+       sodipodi:role="line"
+       x="373.2868"
+       y="148.54199"
+       style="font-size:12px"
+       id="tspan3563">plots with .R script</tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-size:12.11999989px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Source Sans Pro;-inkscape-font-specification:Source Sans Pro"
+     x="250.23303"
+     y="127.09199"
+     id="text3480-0"
+     sodipodi:linespacing="125%"><tspan
+       sodipodi:role="line"
+       id="tspan3482-45"
+       x="250.23303"
+       y="127.09199"
+       style="font-size:12.11999989px">Enters data</tspan><tspan
+       sodipodi:role="line"
+       x="251.45213"
+       y="142.24199"
+       id="tspan3547"
+       style="font-size:12.11999989px"> in Excel, </tspan><tspan
+       sodipodi:role="line"
+       x="250.23303"
+       y="157.39198"
+       id="tspan3484-76"
+       style="font-size:12.11999989px">saves as .csv</tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-size:15.15px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Source Sans Pro;-inkscape-font-specification:Source Sans Pro"
+     x="263.86526"
+     y="65.981758"
+     id="text3565"
+     sodipodi:linespacing="125%"
+     transform="matrix(0.8,0,0,0.8,-5,-4)"><tspan
+       sodipodi:role="line"
+       id="tspan3567"
+       x="263.86526"
+       y="65.981758" /></text>
+  <text
+     xml:space="preserve"
+     style="font-size:12.11999989px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Source Sans Pro;-inkscape-font-specification:Source Sans Pro"
+     x="377.38077"
+     y="63.125004"
+     id="text3569"
+     sodipodi:linespacing="125%"><tspan
+       sodipodi:role="line"
+       id="tspan3571"
+       x="378.59985"
+       y="63.125004">presents </tspan><tspan
+       sodipodi:role="line"
+       x="377.38077"
+       y="78.275009"
+       id="tspan3573">poster</tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-size:12.11999989px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Source Sans Pro;-inkscape-font-specification:Source Sans Pro"
+     x="378.67093"
+     y="15.058228"
+     id="text3569-2"
+     sodipodi:linespacing="125%"><tspan
+       sodipodi:role="line"
+       x="379.89005"
+       y="15.058228"
+       id="tspan3601">Archives poster </tspan><tspan
+       sodipodi:role="line"
+       x="378.67093"
+       y="30.208227"
+       id="tspan3605">on figshare</tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-size:12.11999989px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Source Sans Pro;-inkscape-font-specification:Source Sans Pro"
+     x="511.86026"
+     y="134.54579"
+     id="text3569-2-8"
+     sodipodi:linespacing="125%"><tspan
+       sodipodi:role="line"
+       x="513.07935"
+       y="134.54579"
+       id="tspan3605-7">Writes paper </tspan><tspan
+       sodipodi:role="line"
+       x="511.86026"
+       y="149.69579"
+       id="tspan3633">in MS Word</tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-size:12.80000019px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Source Sans Pro;-inkscape-font-specification:Source Sans Pro"
+     x="507.42715"
+     y="83.800705"
+     id="text3635"
+     sodipodi:linespacing="125%"><tspan
+       sodipodi:role="line"
+       id="tspan3637"
+       x="508.63419"
+       y="83.800705"
+       style="font-size:12px;text-align:center;text-anchor:middle">Publishes in </tspan><tspan
+       sodipodi:role="line"
+       x="507.42715"
+       y="98.800705"
+       id="tspan3639"
+       style="font-size:12px;text-align:center;text-anchor:middle">Open Access journal</tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-size:12.80000019px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Source Sans Pro;-inkscape-font-specification:Source Sans Pro"
+     x="506.80627"
+     y="-2.0981824"
+     id="text3635-6"
+     sodipodi:linespacing="125%"><tspan
+       sodipodi:role="line"
+       x="506.80627"
+       y="-2.0981824"
+       id="tspan3639-1"
+       style="font-size:12px;text-align:center;text-anchor:middle" /><tspan
+       sodipodi:role="line"
+       x="508.01331"
+       y="12.901817"
+       style="font-size:12px;text-align:center;text-anchor:middle"
+       id="tspan3700">Data to </tspan><tspan
+       sodipodi:role="line"
+       x="508.01331"
+       y="27.901817"
+       style="font-size:12px;text-align:center;text-anchor:middle"
+       id="tspan3704">Ecological </tspan><tspan
+       sodipodi:role="line"
+       x="506.80627"
+       y="42.901817"
+       style="font-size:12px;text-align:center;text-anchor:middle"
+       id="tspan3702">Archives</tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-size:12.80000019px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Source Sans Pro;-inkscape-font-specification:Source Sans Pro"
+     x="574.18024"
+     y="19.577953"
+     id="text3635-8"
+     sodipodi:linespacing="125%"><tspan
+       sodipodi:role="line"
+       x="575.38727"
+       y="19.577953"
+       id="tspan3639-2"
+       style="font-size:12px;text-align:center;text-anchor:middle">Code as </tspan><tspan
+       sodipodi:role="line"
+       x="574.18024"
+       y="34.577953"
+       style="font-size:12px;text-align:center;text-anchor:middle"
+       id="tspan3708">supplement</tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-size:12.80000019px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Source Sans Pro;-inkscape-font-specification:Source Sans Pro"
+     x="685.22876"
+     y="30.916241"
+     id="text3635-5"
+     sodipodi:linespacing="125%"><tspan
+       sodipodi:role="line"
+       x="686.43579"
+       y="30.916241"
+       id="tspan3639-72"
+       style="font-size:12px;text-align:center;text-anchor:middle">Links to </tspan><tspan
+       sodipodi:role="line"
+       x="685.22876"
+       y="45.916241"
+       style="font-size:12px;text-align:center;text-anchor:middle"
+       id="tspan3714">paper on blog</tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Source Sans Pro;-inkscape-font-specification:Source Sans Pro"
+     x="39.775074"
+     y="219.30482"
+     id="text3716"
+     sodipodi:linespacing="125%"><tspan
+       sodipodi:role="line"
+       id="tspan3718"
+       x="39.775074"
+       y="219.30482">Reads</tspan><tspan
+       sodipodi:role="line"
+       x="39.775074"
+       y="234.30482"
+       id="tspan3720">papers</tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Source Sans Pro;-inkscape-font-specification:Source Sans Pro"
+     x="68.193474"
+     y="308.0162"
+     id="text3716-2"
+     sodipodi:linespacing="125%"><tspan
+       sodipodi:role="line"
+       x="68.193474"
+       y="308.0162"
+       id="tspan3720-9">Designs</tspan><tspan
+       sodipodi:role="line"
+       x="68.193474"
+       y="323.0162"
+       id="tspan3748">experiment</tspan><tspan
+       sodipodi:role="line"
+       x="68.193474"
+       y="338.0162"
+       id="tspan3750" /></text>
+  <text
+     xml:space="preserve"
+     style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Source Sans Pro;-inkscape-font-specification:Source Sans Pro"
+     x="207.89386"
+     y="236.22923"
+     id="text3716-4"
+     sodipodi:linespacing="125%"><tspan
+       sodipodi:role="line"
+       x="209.10089"
+       y="236.22923"
+       id="tspan3720-4">Environmental </tspan><tspan
+       sodipodi:role="line"
+       x="207.89386"
+       y="251.22923"
+       id="tspan3868">data to Dryad</tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Source Sans Pro;-inkscape-font-specification:Source Sans Pro"
+     x="305.84592"
+     y="235.00926"
+     id="text3716-8"
+     sodipodi:linespacing="125%"><tspan
+       sodipodi:role="line"
+       x="305.84592"
+       y="235.00926"
+       id="tspan3720-3">Sequence</tspan><tspan
+       sodipodi:role="line"
+       x="305.84592"
+       y="250.00926"
+       id="tspan3872">data to NCBI</tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Source Sans Pro;-inkscape-font-specification:Source Sans Pro"
+     x="475.9841"
+     y="205.88622"
+     id="text3716-02"
+     sodipodi:linespacing="125%"><tspan
+       sodipodi:role="line"
+       x="477.19113"
+       y="205.88622"
+       id="tspan3720-8">Slides to </tspan><tspan
+       sodipodi:role="line"
+       x="475.9841"
+       y="220.88622"
+       id="tspan3876">Slideshare</tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Source Sans Pro;-inkscape-font-specification:Source Sans Pro"
+     x="523.38098"
+     y="253.28308"
+     id="text3716-22"
+     sodipodi:linespacing="125%"><tspan
+       sodipodi:role="line"
+       x="524.58801"
+       y="253.28308"
+       id="tspan3720-45">Posts preprint </tspan><tspan
+       sodipodi:role="line"
+       x="523.38098"
+       y="268.28308"
+       id="tspan3882">to bioRXiv</tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Source Sans Pro;-inkscape-font-specification:Source Sans Pro"
+     x="579.18372"
+     y="301.79422"
+     id="text3716-224"
+     sodipodi:linespacing="125%"><tspan
+       sodipodi:role="line"
+       x="580.39075"
+       y="301.79422"
+       id="tspan3720-2">Submits paper to </tspan><tspan
+       sodipodi:role="line"
+       x="580.39075"
+       y="316.79422"
+       id="tspan3886">PLoS Biology, </tspan><tspan
+       sodipodi:role="line"
+       x="579.18372"
+       y="331.79422"
+       id="tspan3888">cites data and code</tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Source Sans Pro;-inkscape-font-specification:Source Sans Pro"
+     x="409.25119"
+     y="250.92503"
+     id="text3716-7"
+     sodipodi:linespacing="125%"><tspan
+       sodipodi:role="line"
+       x="409.25119"
+       y="250.92503"
+       id="tspan3720-89">Gives talk</tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Source Sans Pro;-inkscape-font-specification:Source Sans Pro"
+     x="412.32938"
+     y="300.52222"
+     id="text3716-1"
+     sodipodi:linespacing="125%"><tspan
+       sodipodi:role="line"
+       x="413.53641"
+       y="300.52222"
+       id="tspan3720-44">Analysis and writing in </tspan><tspan
+       sodipodi:role="line"
+       x="412.32938"
+       y="315.52222"
+       id="tspan3892">reproducible document,</tspan><tspan
+       sodipodi:role="line"
+       x="412.32938"
+       y="330.52222"
+       id="tspan3896">in public github repository</tspan><tspan
+       sodipodi:role="line"
+       x="412.32938"
+       y="345.52222"
+       id="tspan3894" /></text>
+  <text
+     xml:space="preserve"
+     style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Source Sans Pro;-inkscape-font-specification:Source Sans Pro"
+     x="148.7661"
+     y="307.90222"
+     id="text3716-47"
+     sodipodi:linespacing="125%"><tspan
+       sodipodi:role="line"
+       x="148.7661"
+       y="307.90222"
+       id="tspan3720-5">Writes</tspan><tspan
+       sodipodi:role="line"
+       x="148.7661"
+       y="322.90222"
+       id="tspan3864">grant</tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Source Sans Pro;-inkscape-font-specification:Source Sans Pro"
+     x="206.75694"
+     y="309.29422"
+     id="text3716-70"
+     sodipodi:linespacing="125%"><tspan
+       sodipodi:role="line"
+       x="206.75694"
+       y="309.29422"
+       id="tspan3720-05">Lab</tspan><tspan
+       sodipodi:role="line"
+       x="206.75694"
+       y="324.29422"
+       id="tspan3900">work</tspan></text>
+</svg>
