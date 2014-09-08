@@ -47,9 +47,32 @@ colnames(trend_df) <-  c("Year","Percent","Source")
 osPubDF <- rbind(osPubDF,trend_df)
 
 p <- ggplot(osPubDF, aes(Year, Percent, colour = Source))
-p <- p + geom_point(size = 3) +geom_line() + theme_bw()+ylab("Thousandth of a percent of all papers published in a given source") + xlab("Year")
+p <- p +geom_line()+geom_point(size=3) + theme_bw()+ylab("Thousandth of a percent of all papers published in a given source") + xlab("Year")
 ggsave("publication_plot.png",p,path = "~/scratch/open_sci_manuscript_figure",height=7,width=8)
 
 
+### Get raw data from cross ref and plos
 
+plosKey <- "K7AUTjsEK1C149dS_Aqn"
   
+out <- searchplos(q='everything:"open science"~0', fl=c('title','publication_date','id'), fq='doc_type:full',limit=1000)
+plYears <- unlist(lapply(strsplit(out$data$publication_date,"-"),function(x){return(x[1])}))
+plDF <- data.frame(cbind(table(plYears),as.numeric(names(table(plYears)))))
+colnames(plDF) <- c("count","year")
+
+tot <- facetplos(q='*:*', facet.field='publication_date')
+
+
+crOS <- cr_fundref_works(query='"open science"',limit = 1000)
+## Grab all the years
+crYears <- unlist(lapply(crOS$items,function(x){return(x$deposited$`date-parts`[[1]][1])} ))
+crDF <- data.frame(cbind(table(crYears),as.numeric(names(table(crYears)))))
+colnames(crDF) <- c("count","year")
+
+rawDF <- rbind(plDF,crDF)
+rawDF <- rawDF[rawDF$year<2014,]
+rawDF$Source <- sort(rep(c("PLoS","CrossRef"),7),decreasing=T)
+rawct <- ggplot(rawDF,aes(x=year,y=count,colour=Source,group=Source))+geom_line()+geom_point()+theme_bw()+ylab("Count of papers mentioning 'open science'")
+ggsave("raw_os_count.png",rawct,path = "~/scratch/open_sci_manuscript_figure",height=7,width=8)
+
+
