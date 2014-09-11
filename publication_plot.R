@@ -13,6 +13,7 @@ library(rentrez)
 library(rmetadata)
 library(rplos)
 library(plotly)
+library(XML)
 
 ### Data for web of science
 years <- 1995:2013
@@ -46,21 +47,41 @@ colnames(trend_df) <-  c("Year","Percent","Source")
 
 osPubDF <- rbind(osPubDF,trend_df)
 
-p <- ggplot(osPubDF, aes(Year, Percent, colour = Source))
-p <- p +geom_line()+geom_point(size=3) + theme_bw()+ylab("Thousandth of a percent of all papers published in a given source") + xlab("Year")
-ggsave("publication_plot.png",p,path = "~/scratch/open_sci_manuscript_figure",height=7,width=8)
-
-
-### Get raw data from cross ref and plos
-
+### We can also get data for plos one papers
+# Get raw plos counts.
 plosKey <- "K7AUTjsEK1C149dS_Aqn"
-  
+plosXML <- xmlInternalTreeParse("http://api.plos.org/search?q=*:*&rows=0&facet=true&facet.range=publication_date&facet.range.start=NOW/YEAR-10YEAR&facet.range.end=NOW/YEAR%2B1YEAR&facet.range.gap=%2B1YEAR&api_key=KEY")
+plosCounts <- as.numeric(unlist(xpathApply(plosXML, "//int",xmlValue)))
+plosYears <- unlist(lapply(xpathApply(plosXML, "//int",xmlGetAttr,"name"),function(x){return(as.numeric(strsplit(x,"-")[[1]][1]))}))
 out <- searchplos(q='everything:"open science"~0', fl=c('title','publication_date','id'), fq='doc_type:full',limit=1000)
 plYears <- unlist(lapply(strsplit(out$data$publication_date,"-"),function(x){return(x[1])}))
 plDF <- data.frame(cbind(table(plYears),as.numeric(names(table(plYears)))))
 colnames(plDF) <- c("count","year")
+plDF$prop<- (plDF$count/plosCounts[plosYears%in%plDF$year])*1000
+plDF$Source <- rep("PLoS",dim(plDF)[1])
+#strip down to fit with trend_df
+plDF <- plDF[plDF$year<2014,2:4]
+colnames(plDF) <-  c("Year","Percent","Source")
+osPubDF <- rbind(osPubDF,plDF)
 
-tot <- facetplos(q='*:*', facet.field='publication_date')
+
+p <- ggplot(osPubDF, aes(Year, Percent, colour = Source))
+p <- p +geom_line()+geom_point(size=3)+scale_y_log10("tmp") + theme_bw()+ylab("Thousandth of a percent of all papers published in a given source") + xlab("Year")
+
+
+
+ggsave("publication_plot.png",p,path = "~/scratch/open_sci_manuscript_figure",height=7,width=8)
+
+
+
+
+
+### Get raw data from cross ref and plos
+
+out <- searchplos(q='everything:"open science"~0', fl=c('title','publication_date','id'), fq='doc_type:full',limit=1000)
+plYears <- unlist(lapply(strsplit(out$data$publication_date,"-"),function(x){return(x[1])}))
+plDF <- data.frame(cbind(table(plYears),as.numeric(names(table(plYears)))))
+colnames(plDF) <- c("count","year")
 
 
 crOS <- cr_fundref_works(query='"open science"',limit = 1000)
