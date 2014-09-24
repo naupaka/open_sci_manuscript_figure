@@ -49,32 +49,40 @@ osPubDF <- rbind(osPubDF,trend_df)
 
 ### We can also get data for plos one papers
 # Get raw plos counts.
-plosKey <- "K7AUTjsEK1C149dS_Aqn"
-plosXML <- xmlInternalTreeParse("http://api.plos.org/search?q=*:*&rows=0&facet=true&facet.range=publication_date&facet.range.start=NOW/YEAR-10YEAR&facet.range.end=NOW/YEAR%2B1YEAR&facet.range.gap=%2B1YEAR&api_key=KEY")
-plosCounts <- as.numeric(unlist(xpathApply(plosXML, "//int",xmlValue)))
-plosYears <- unlist(lapply(xpathApply(plosXML, "//int",xmlGetAttr,"name"),function(x){return(as.numeric(strsplit(x,"-")[[1]][1]))}))
-out <- searchplos(q='everything:"open science"~0', fl=c('title','publication_date','id'), fq='doc_type:full',limit=1000)
-plYears <- unlist(lapply(strsplit(out$data$publication_date,"-"),function(x){return(x[1])}))
-plDF <- data.frame(cbind(table(plYears),as.numeric(names(table(plYears)))))
-colnames(plDF) <- c("count","year")
-plDF$prop<- (plDF$count/plosCounts[plosYears%in%plDF$year])*1000
-plDF$Source <- rep("PLoS",dim(plDF)[1])
-#strip down to fit with trend_df
-plDF <- plDF[plDF$year<2014,2:4]
-colnames(plDF) <-  c("Year","Percent","Source")
-osPubDF <- rbind(osPubDF,plDF)
+#plosKey <- "K7AUTjsEK1C149dS_Aqn"
+#plosXML <- xmlInternalTreeParse("http://api.plos.org/search?q=*:*&rows=0&facet=true&facet.range=publication_date&facet.range.start=NOW/YEAR-10YEAR&facet.range.end=NOW/YEAR%2B1YEAR&facet.range.gap=%2B1YEAR&api_key=KEY")
+#plosCounts <- as.numeric(unlist(xpathApply(plosXML, "//int",xmlValue)))
+#plosYears <- unlist(lapply(xpathApply(plosXML, "//int",xmlGetAttr,"name"),function(x){return(as.numeric(strsplit(x,"-")[[1]][1]))}))
+#out <- searchplos(q='everything:"open science"~0', fl=c('title','publication_date','id'), fq='doc_type:full',limit=1000)
+#plYears <- unlist(lapply(strsplit(out$data$publication_date,"-"),function(x){return(x[1])}))
+#plDF <- data.frame(cbind(table(plYears),as.numeric(names(table(plYears)))))
+#colnames(plDF) <- c("count","year")
+#plDF$prop<- (plDF$count/plosCounts[plosYears%in%plDF$year])*1000
+#plDF$Source <- rep("PLoS",dim(plDF)[1])
+##strip down to fit with trend_df
+#plDF <- plDF[plDF$year<2014,2:4]
+#colnames(plDF) <-  c("Year","Percent","Source")
+#osPubDF <- rbind(osPubDF,plDF)
 
-
-p <- ggplot(osPubDF, aes(Year, Percent, colour = Source))
-p <- p +geom_line()+geom_point(size=3)+scale_y_log10("tmp") + theme_bw()+ylab("Thousandth of a percent of all papers published in a given source") + xlab("Year")
-
-
-
-ggsave("publication_plot.png",p,path = "~/scratch/open_sci_manuscript_figure",height=7,width=8)
-
+### Add in data from Shirley
 ### Web of Science Citation and publication data for years 1995-2013
 wos.Dat<-c(0,0,1,1,0,0,2,4,2,3,10,10,11,14,25,39,33,53,38)
 wosCit<-c(2,7,5,13,8,19,20,41,59,48,68,111,126,167,219,220,276,328,361)
+
+citDF <- cbind(data.frame(cbind(years,(wosCit/wosTot)*1000)),rep("Web of Science",length(years)))
+colnames(citDF) <-  c("Year","Percent","Source")
+
+osPubDF <- rbind(osPubDF,citDF)
+osPubDF$fac <- factor(c(rep("Papers published \n about open science",2*length(years)),rep("Citation of papers about \n open science",length(years))))
+osPubDF$fac <- factor(osPubDF$fac,levels(osPubDF$fac)[2:1])
+
+
+p <- ggplot(osPubDF, aes(Year, Percent, colour = Source))+facet_grid(fac ~.)
+p <- p +geom_line()+geom_point(size=3)+scale_y_log10("Log thousandth of a percent of all papers \n published in a given source") + theme_bw(base_size = 15) + xlab("Year") + ylab("Fraction of total papers in 1000th of percents")
+p <- p + scale_colour_manual(values = c("Red","Blue"))+ theme(legend.position=c(.8, .2)) + theme(strip.background = element_rect(fill="white", colour="black"))
+p
+
+ggsave("publication_plot.png",p,path = "~/wkspace/open_sci_manuscript_figure",height=7,width=8)
 
 
 
