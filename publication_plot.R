@@ -50,6 +50,8 @@ p <- ggplot(osPubDF, aes(Year, Percent, colour = Source))
 p <- p + geom_point(size = 3) +geom_line() + theme_bw()+ylab("Thousandth of a percent of all papers published in a given source") + xlab("Year")
 ggsave("publication_plot.png",p,path = "~/scratch/open_sci_manuscript_figure",height=7,width=8)
 
-
+### Web of Science Citation and publication data for years 1995-2013
+wos.Dat<-c(0,0,1,1,0,0,2,4,2,3,10,10,11,14,25,39,33,53,38)
+wosCit<-c(2,7,5,13,8,19,20,41,59,48,68,111,126,167,219,220,276,328,361)
 
   
