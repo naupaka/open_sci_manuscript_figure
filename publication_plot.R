@@ -22,7 +22,7 @@ wosTot <- c(1988832,2212870,2487627,3147376,3179260,3336860,3384475,3642685, 396
             4288723,4567485,4824696,5507441,5733786,5719911,6028404,6578979, 7128743)
 
 
-osPubDF <- data.frame(cbind(years,(wosDat/wosTot)*1000))
+osPubDF <- data.frame(cbind(years,(wosDat/wosTot)*100))
 osPubDF$Source <- rep("Web of Science",dim(osPubDF)[1])
 
 colnames(osPubDF) <- c("Year","Percent","Source")
@@ -32,10 +32,10 @@ papers_by_year <- function(years, search_term) {
                                                  mindate = y, maxdate = y, retmax = 0)$count))
 }
 
-total_papers <- papers_by_year(years, "")
+total_papers <- as.numeric(papers_by_year(years, ""))
 opensci <- c("'open data'")
 trend_data <- sapply(opensci, function(t) papers_by_year(years, t))
-trend_props <- data.frame((trend_data/total_papers)*1000)
+trend_props <- data.frame((as.numeric(trend_data)/total_papers)*100)
 trend_props$years <- years
 #trend_data <- data.frame(trend_data)
 #trend_data$years <- years
@@ -69,7 +69,7 @@ osPubDF <- rbind(osPubDF,trend_df)
 wos.Dat<-c(0,0,1,1,0,0,2,4,2,3,10,10,11,14,25,39,33,53,38)
 wosCit<-c(2,7,5,13,8,19,20,41,59,48,68,111,126,167,219,220,276,328,361)
 
-citDF <- cbind(data.frame(cbind(years,(wosCit/wosTot)*1000)),rep("Web of Science",length(years)))
+citDF <- cbind(data.frame(cbind(years,(wosCit/wosTot)*100)),rep("Web of Science",length(years)))
 colnames(citDF) <-  c("Year","Percent","Source")
 
 osPubDF <- rbind(osPubDF,citDF)
@@ -78,11 +78,11 @@ osPubDF$fac <- factor(osPubDF$fac,levels(osPubDF$fac)[2:1])
 
 
 p <- ggplot(osPubDF, aes(Year, Percent, colour = Source))+facet_grid(fac ~.)
-p <- p +geom_line()+geom_point(size=3)+scale_y_log10("Log thousandth of a percent of all papers \n published in a given source") + theme_bw(base_size = 15) + xlab("Year") + ylab("Fraction of total papers in 1000th of percents")
+p <- p +geom_line()+geom_point()+scale_y_log10("Percentage of total papers \n published per year (Log scale)") + theme_bw(base_size = 8) + xlab("Year") + ylab("Fraction of total papers in 1000th of percents")
 p <- p + scale_colour_manual(values = c("Red","Blue"))+ theme(legend.position=c(.8, .2)) + theme(strip.background = element_rect(fill="white", colour="black"))
 p
 
-ggsave("publication_plot.png",p,path = "~/wkspace/open_sci_manuscript_figure",height=7,width=8)
+ggsave("publication_plot.eps",p,path = "~/wkspace/open_sci_manuscript_figure",height=5,width=6.1,units="in")
 
 
 
@@ -94,7 +94,7 @@ plDF <- data.frame(cbind(table(plYears),as.numeric(names(table(plYears)))))
 colnames(plDF) <- c("count","year")
 
 
-crOS <- cr_fundref_works(query='"open science"',limit = 1000)
+crOS <- cr_fundref_works(query='"open science"',limit = 100)
 ## Grab all the years
 crYears <- unlist(lapply(crOS$items,function(x){return(x$deposited$`date-parts`[[1]][1])} ))
 crDF <- data.frame(cbind(table(crYears),as.numeric(names(table(crYears)))))
