@@ -1,25 +1,26 @@
 library(devtools)
 install_github('rentrez','ropensci')
-install_github('rmetadata','ropensci')
 install_github('rcrossref','ropensci')
 install_github('rplos','ropensci')
-install_github('plotly','ropensci')
 
 
 
 options(stringsAsFactors = F)
 library(rcrossref)
 library(rentrez)
-library(rmetadata)
 library(rplos)
-library(plotly)
 library(XML)
+library(reshape2)
 
-### Data for web of science
+# Data from Web of Science was pulled manually because there is no API.  Searches for the terms were limited by year, counted and then written down
+### Data for web of science - Raw counts
 years <- 1995:2013
 wosDat <- c(0,0,1,1,0,1,2,5,2,3,11,10,12,15,26,42,38,70,74)
 wosTot <- c(1988832,2212870,2487627,3147376,3179260,3336860,3384475,3642685, 3965098,4045333,
             4288723,4567485,4824696,5507441,5733786,5719911,6028404,6578979, 7128743)
+### Web of Science Citation and publication data for years 1995-2013 - Citation counts
+wos.Dat<-c(0,0,1,1,0,0,2,4,2,3,10,10,11,14,25,39,33,53,38)
+wosCit<-c(2,7,5,13,8,19,20,41,59,48,68,111,126,167,219,220,276,328,361)
 
 
 osPubDF <- data.frame(cbind(years,(wosDat/wosTot)*100))
@@ -39,7 +40,7 @@ trend_props <- data.frame((as.numeric(trend_data)/total_papers)*100)
 trend_props$years <- years
 #trend_data <- data.frame(trend_data)
 #trend_data$years <- years
-  
+
 trend_df <- melt(as.data.frame(trend_props), id.vars = "years")
 trend_df$Source <- rep("PubMed",dim(trend_df)[1])
 trend_df <- trend_df[,c(1,3,4)]
@@ -64,11 +65,6 @@ osPubDF <- rbind(osPubDF,trend_df)
 #colnames(plDF) <-  c("Year","Percent","Source")
 #osPubDF <- rbind(osPubDF,plDF)
 
-### Add in data from Shirley
-### Web of Science Citation and publication data for years 1995-2013
-wos.Dat<-c(0,0,1,1,0,0,2,4,2,3,10,10,11,14,25,39,33,53,38)
-wosCit<-c(2,7,5,13,8,19,20,41,59,48,68,111,126,167,219,220,276,328,361)
-
 citDF <- cbind(data.frame(cbind(years,(wosCit/wosTot)*100)),rep("Web of Science",length(years)))
 colnames(citDF) <-  c("Year","Percent","Source")
 
@@ -81,12 +77,11 @@ p <- ggplot(osPubDF, aes(Year, Percent, colour = Source))+facet_grid(fac ~.)
 p <- p +geom_line()+geom_point()+scale_y_log10("Percentage of total papers \n published per year (Log scale)") + theme_bw(base_size = 8) + xlab("Year") + ylab("Fraction of total papers in 1000th of percents")
 p <- p + scale_colour_manual(values = c("Red","Blue"))+ theme(legend.position=c(.8, .2)) + theme(strip.background = element_rect(fill="white", colour="black"))
 p
-
 ggsave("publication_plot.eps",p,path = "~/wkspace/open_sci_manuscript_figure",height=5,width=6.1,units="in")
 
 
 
-### Get raw data from cross ref and plos
+### Extra code for plos and cross-ref.  This was never part of the manuscript.
 
 out <- searchplos(q='everything:"open science"~0', fl=c('title','publication_date','id'), fq='doc_type:full',limit=1000)
 plYears <- unlist(lapply(strsplit(out$data$publication_date,"-"),function(x){return(x[1])}))
@@ -104,6 +99,5 @@ rawDF <- rbind(plDF,crDF)
 rawDF <- rawDF[rawDF$year<2014,]
 rawDF$Source <- sort(rep(c("PLoS","CrossRef"),7),decreasing=T)
 rawct <- ggplot(rawDF,aes(x=year,y=count,colour=Source,group=Source))+geom_line()+geom_point()+theme_bw()+ylab("Count of papers mentioning 'open science'")
-ggsave("raw_os_count.png",rawct,path = "~/scratch/open_sci_manuscript_figure",height=7,width=8)
 
 
